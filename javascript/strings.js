@@ -14,5 +14,9 @@ console.log(letter);
 console.log(text.slice(2,4));
 console.log(text.slice(-5,-1));
 console.log(text.slice(2));
+//In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+//It’s just a special value which represents “nothing”, “empty” or “value unknown”.
+//The meaning of undefined is “value is not assigned”.
+
 
 
