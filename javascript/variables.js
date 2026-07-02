@@ -17,5 +17,5 @@ console.log(percentage*100)
 // The old "var", just in case you need them.
 // const – is like let, but the value of the variable can’t be changed.
 // Variables should be named in a way that allows us to easily understand what’s inside them.
-
+console.log((6+4+9)/77);
 

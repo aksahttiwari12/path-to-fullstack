@@ -3,6 +3,7 @@
  const name = "Chris";
  const greeting = `Hello, ${name}`;
  console.log(greeting); // "Hello, Chris"
+ const string = "How are you:?";
  const joined = `${greeting} ${string}`;
  console.log(joined);
 let text="HELLO WORLD";

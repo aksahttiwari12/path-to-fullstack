@@ -42,4 +42,25 @@ arr.length=3;
 console.log(arr);
 arr.length=5;
 console.log(arr);
+arr.splice(1,1);
+console.log(arr);
 
+let arr2=[10,20,30,40,50];
+arr2.splice(0,3,"lets","dance");
+console.log(arr2);
+//splice method can also insert element for that we need to set the delete count to 0
+let arr3=[100,200,300,400,500];
+arr3.splice(2,0,"hello","world");
+console.log(arr3);
+//map methdod creates a new array populated with the results of calling a provided function on every element in the calling array.
+function addOne(num){
+      return num+1;
+}
+let arr=[1,2,3,4,5];
+let mappedarr=arr.map(addOne);
+console.log(mappedarr);
+console.log(arr);
+//it does not change the original array
+
+//filter method creates a new array with all elements that pass the test implemented by the provided function.
+//reduce method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
